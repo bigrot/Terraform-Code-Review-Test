@@ -10,7 +10,8 @@ Terraform code for an AWS infrastructure
 
 ## Issues Identified: A list of specific issues or areas for improvement, with explanations.
 ###	Suggested Improvements:
-1. Modularize resources for reusability( suggested modules, 
+1. Modularize resources for reusability( suggested modules)
+~~~
 ├── modules
 │   ├── vpc
 │   ├── ecs
@@ -20,6 +21,7 @@ Terraform code for an AWS infrastructure
 ├── variables.tf`
 ├── outputs.tf
 ├── terraform.tfvars
+~~~
 2. Enforce IAM for authentication 
 ##	Annotate the code (e.g., with comments or inline suggestions) to demonstrate your analysis.
 code comment line 80
